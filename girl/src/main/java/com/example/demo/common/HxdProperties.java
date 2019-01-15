@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@PropertySource(value = "classpath:application.properties",encoding = "ISO-8859-1")
+@PropertySource(value = "classpath:application.properties")
 @Component
 public class HxdProperties {
 
